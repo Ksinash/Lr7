@@ -31,10 +31,9 @@ int main()
     // Приведення типу в стилі мови С
     int intResultC = (int)result;
 
-    // Приведення типу в стилі мови C++ (оператор static_cast)
+  
     int intResultCpp = static_cast<int>(result);
 
-    // Виведення результатів обох способів приведення типів
     printf("Приведення типу в стилі C: %d\n", intResultC);
     printf("Приведення типу в стилі C++: %d\n", intResultCpp);
 
